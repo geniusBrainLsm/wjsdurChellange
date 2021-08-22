@@ -1,0 +1,102 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+.container{
+    width:100%;
+    height: 100vh;
+    background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('https://images.unsplash.com/photo-1522252234503-e356532cafd5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1525&q=80');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.container .header{
+    width: 80%;
+    height: 80px;
+    margin:0 auto;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .header h1 a{
+    color:white;
+    text-decoration: none;
+    font-family: 'Bungee Shade', cursive;
+}
+
+.container .header h1 a:hover{
+    color:darkgray;
+    opacity: 0.8;
+}
+
+.container .header .nav li{
+    display: inline;
+    color:white;
+    text-decoration: none;
+}
+
+.container .header .nav li:hover{
+    color:darkgray;
+    opacity: 0.8;
+}
+
+.container .header .nav li a{
+    color:white;
+    text-decoration: none;
+    margin:0 20px;
+}
+
+.nav li a:hover{
+    color:darkgray;
+    opacity: 0.8;
+}
+
+.per{
+    margin:250px 0 0 400px;
+}
+
+.container .intro .per h2 a{
+    clear:both;
+    text-decoration: none;
+    color:white;
+    font-size:60px;
+    position: absolute;
+}
+
+.bar{  
+    clear:both;
+    display:block;
+    width: 55%;
+    background-color: #093028;
+    position: absolute;
+    margin:90px 0 0 0;
+    border-radius: 10px;
+    height: 30px;
+}
+
+.progress{
+    background-color:white;
+    width: 1%;
+    border-radius: 10px;
+    height: 30px;
+}
+
+.bar p{
+    color:white;
+    text-align: center;
+    justify-content: center;
+    margin-left: 500px;
+    line-height: 30px;
+}
+.date{
+    margin-top:10px;
+    color:white;
+    font-size:20px;
+}
+
+.quotes{
+    color:rgb(221, 220, 220);
+    margin-top:2px;
+}
